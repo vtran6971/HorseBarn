@@ -1,27 +1,26 @@
 package com.company;
 
 public class Mustang implements Horse {
-    String Name;
-    int Weight;
+    private String Name;
+    private int Weight;
 
-    public Mustang(String theName, int theWeight)
+    public Mustang(String Name, int Weight)
     {
-        this.Name = theName;
-        this.Weight = theWeight;
+        this.Name = Name;
+        this.Weight = Weight;
     }
 
-    public  String getName()
-    {
-        return this.Name;
-    }
 
     public  int getWeight()
     {
-        return this.Weight;
+        return Weight;
     }
 
-    public  String toString()
+    public String getName()
     {
-        return "name: " + this.Name + " weight: " + this.Weight;
+        return Name;
     }
+
+
+
 }

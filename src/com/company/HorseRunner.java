@@ -16,11 +16,15 @@ public class HorseRunner {
 
         System.out.println(barn);
         System.out.println("Dusty Trail is in space: "+barn.findHorseSpace("Dusty Trail"));
+        System.out.println("Secretariat is in space "+barn.findHorseSpace("Secretariat"));
+
 
         barn.consolidate();
 
         System.out.println(barn);
         System.out.println("Dusty Trail is in space: "+barn.findHorseSpace("Dusty Trail"));
+        System.out.println("Secretariat is in space "+barn.findHorseSpace("Secretariat"));
+
 
     }
 }
